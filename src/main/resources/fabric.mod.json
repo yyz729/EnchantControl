@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "enchant_control",
+  "version": "${version}",
+  "name": "Enchant Control",
+  "description": "",
+  "authors": ["yyz729"],
+  "contact": {
+    "sources": "https://github.com/TerraformersMC/ModMenu"
+  },
+  "license": "MIT",
+  "icon": "assets/enchantcontrol/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.yyz.client.EnchantControlClient"
+    ],
+    "main": [
+      "com.yyz.EnchantControl"
+    ]
+  },
+  "mixins": [
+    "enchant_control.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
