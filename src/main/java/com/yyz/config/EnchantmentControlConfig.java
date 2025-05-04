@@ -11,11 +11,23 @@ public class EnchantmentControlConfig {
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    public final Set<String> DISABLED_ENCHANTMENTS = Set.of(
-            "minecraft:sharpness",
-            "minecraft:unbreaking"
+    public final Set<String> AvailableForRandomSelection = Set.of(
+            "minecraft:mending",
+            "minecraft:infinity"
     );
 
+    public final Set<String> AvailableForEnchantedBookOffer = Set.of(
+            "minecraft:mending",
+            "minecraft:infinity"
+    );
+
+    public final Set<String> Treasure = Set.of(
+
+    );
+
+    public final Set<String> Cursed = Set.of(
+
+    );
 
     public static EnchantmentControlConfig loadConfig(File file) {
         EnchantmentControlConfig config;

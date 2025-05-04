@@ -6,10 +6,10 @@
   "description": "",
   "authors": ["yyz729"],
   "contact": {
-    "sources": "https://github.com/TerraformersMC/ModMenu"
+    "sources": "https://github.com/yyz729/EnchantControl"
   },
   "license": "MIT",
-  "icon": "assets/enchantcontrol/icon.png",
+  "icon": "assets/enchant_control/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
